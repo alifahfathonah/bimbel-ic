@@ -2,7 +2,7 @@
 /*======== DATABASE KONEKSI DENGAN MENGGUNAKAN KONSEPPDO ===========*/
 
 $DB_HOST		= 	"localhost";
-$DB_NAME		= 	"bimbelic";
+$DB_NAME		= 	"00_bimbel_ic";
 $DB_USERNAME	= 	"root";
 $DB_PASSWORD 	= 	"";
 

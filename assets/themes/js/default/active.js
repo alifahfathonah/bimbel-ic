@@ -85,13 +85,14 @@
                     margin: 15
                 },
                 768: {
-                    items: 1
+                    items: 3
                 },
                 992: {
-                    items: 2
+                    items: 4,
+                    margin: 15
                 },
                 1700: {
-                    items: 3
+                    items: 5
                 }
             }
         })

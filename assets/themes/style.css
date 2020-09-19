@@ -377,7 +377,9 @@ textarea:invalid {
     line-height: 49px; }
   .saasbox-btn.white-btn {
     background-color: #0b0757;
-    color: #ffffff; }
+    color: #ffffff;
+    box-shadow: 10px 10px 0px 0px rgb(244 170 174);
+    }
     .saasbox-btn.white-btn:hover, .saasbox-btn.white-btn:focus {
       background-color: #fdd76e;
       color: #0b0757;
@@ -741,8 +743,9 @@ textarea:invalid {
   left: 0;
   right: 0;
   z-index: 1001;
-  background-color: #0811fb;
-  box-shadow: 0 0.25rem 0.25rem 0 rgba(15, 30, 150, 0.2); }
+  background-color: #141336;
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(15, 30, 150, 0.2);
+  }
   .header-area.sticky .classy-navbar {
     height: 80px; }
     @media only screen and (max-width: 767px) {
@@ -787,8 +790,9 @@ textarea:invalid {
       z-index: -1;
       border-radius: 50%;
       font-family: "LineIcons";
-      color: rgba(255, 255, 255, 0.26);
-      font-size: 22px; }
+      color: rgb(252 215 111);
+      font-size: 22px;
+      }
   .background-animation .cloud-ani {
     position: absolute;
     border-radius: 50%;
@@ -807,8 +811,9 @@ textarea:invalid {
       z-index: -1;
       border-radius: 50%;
       font-family: "LineIcons";
-      color: rgba(255, 255, 255, 0.26);
-      font-size: 2.5rem; }
+      color: rgb(252 215 111);
+      font-size: 2.5rem;
+      }
   .background-animation .circle-ani {
     position: absolute;
     border-radius: 50%;
@@ -826,9 +831,10 @@ textarea:invalid {
       content: "";
       top: 10%;
       left: 10%;
-      border: 3px solid rgba(255, 255, 255, 0.2);
+      border: 3px solid rgb(252 215 111);
       z-index: -1;
-      border-radius: 50%; }
+      border-radius: 50%;
+      }
   .background-animation .triangle-ani {
     position: absolute;
     border-radius: 50%;
@@ -844,11 +850,12 @@ textarea:invalid {
       height: 0;
       position: absolute;
       content: "";
-      border-top: 14px solid rgba(255, 255, 255, 0.16);
+      border-top: 14px solid rgb(146 39 42);
       border-bottom: 14px solid transparent;
       border-left: 14px solid transparent;
       border-right: 14px solid transparent;
-      z-index: -1; }
+      z-index: -1;
+      }
   .background-animation .box-ani {
     position: absolute;
     border-radius: 50%;
@@ -867,7 +874,8 @@ textarea:invalid {
       z-index: -1;
       background-color: transparent;
       border-radius: 4px;
-      border: 3px solid rgba(255, 255, 255, 0.2); }
+      border: 3px solid rgb(146 39 42);
+      }
   .background-animation .line-ani {
     position: absolute;
     border-radius: 50%;
@@ -2676,8 +2684,9 @@ img.mfp-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 54%;
   flex: 0 0 54%;
-  max-width: 54%;
-  width: 54%; }
+  /* max-width: 54%; */
+  /* width: 54%; */
+  }
   @media only screen and (max-width: 767px) {
     .client-feedback-content {
       -webkit-box-flex: 0;
@@ -2727,8 +2736,9 @@ img.mfp-img {
     display: -ms-flexbox;
     display: flex;
     position: absolute;
-    right: calc(100% + 50px);
-    bottom: 30px; }
+    right: 47.4%;
+    bottom: -6rem;
+    }
     @media only screen and (max-width: 767px) {
       .client-feedback-content .owl-dots {
         right: 50px;
@@ -4055,7 +4065,8 @@ img.mfp-img {
       top: 0.25rem;
       left: 0.25rem;
       content: "";
-      background-color: #8480ae; }
+      /* background-color: #8480ae; */
+      }
     .contact-mini-card .contact-mini-card-icon::before {
       position: absolute;
       z-index: -10;
@@ -4065,7 +4076,8 @@ img.mfp-img {
       bottom: -2px;
       left: 0;
       content: "";
-      background-color: #0b0757; }
+      background-color: #0b0757;
+      }
     .contact-mini-card .contact-mini-card-icon i {
       position: relative;
       display: block;
@@ -4229,3 +4241,10 @@ textarea.form-control {
 
 .demo-preview-area .single-portfolio-area .overlay-content .portfolio-links a {
   padding-left: 1.25rem; }
+  
+.link-terkait-item img {
+  filter: grayscale(100%);
+}
+.link-terkait-item img:hover {
+  filter: unset;
+}
