@@ -50,23 +50,23 @@
                 <div id="success_fail_info"></div>
                 <div class="row">
                   <div class="col-12 col-lg-6">
-                    <label for="name">Full Name:</label>
-                    <input class="form-control mb-30" id="name" type="text" placeholder="Designing World" value="" name="name" required>
+                    <label for="name">Nama *:</label>
+                    <input type="text" name="nama" placeholder="Masukan nama anda disini..." value="" class="form-control mb-30" required="">
                   </div>
                   <div class="col-12 col-lg-6">
-                    <label for="email">Email Address:</label>
-                    <input class="form-control mb-30" id="email" type="email" placeholder="care.designingworld@gmail.com" name="email" value="" required>
+                    <label for="email">Email *:</label>
+                    <input class="form-control mb-30" id="email" type="email" name="email" placeholder="email@gmail.com" name="email" value="" required>
                   </div>
                   <div class="col-12">
-                    <label for="subject">Topics:</label>
-                    <input class="form-control mb-30" id="topics" type="text" placeholder="Presale Questions" name="topics" value="">
+                    <label for="subject">Alamat *:</label>
+                    <input class="form-control mb-30" id="topics" type="text" name="alamat" placeholder="Masukan alamat anda disini..." name="topics" value="">
                   </div>
                   <div class="col-12">
-                    <label for="message">Message:</label>
-                    <textarea class="form-control mb-30" id="message" name="message" placeholder="Message"></textarea>
+                    <label for="message">Pesan *:</label>
+                    <textarea class="form-control mb-30" id="message" name="pesan" placeholder="Tulis pesan anda disini..."></textarea>
                   </div>
                   <div class="col-12 text-center">
-                    <button class="btn saasbox-btn w-100" type="submit">Send Now</button>
+                    <button class="btn saasbox-btn w-100" type="submit">Kirim</button>
                   </div>
                 </div>
               </form>

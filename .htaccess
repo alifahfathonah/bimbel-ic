@@ -9,6 +9,7 @@
     # RewriteCond %{REQUEST_FILENAME} !-f
     # RewriteCond %{REQUEST_FILENAME} !-d
     # RewriteRule . /index.php [L]
+    #RewriteCond %{REQUEST_METHOD}  !POST
 
     #Redirect SSL
     # RewriteCond %{HTTPS} off
@@ -33,7 +34,7 @@
 
     # PENDAFTARAN PAGE
     RewriteRule ^cara-pendaftaran\.html$ app/controller/main.php?mod=cara_pendaftaran [L]
-    RewriteRule ^daftar-online\.html$ app/controller/main.php?mod=daftar_online [L]
+    RewriteRule ^daftar-online\.html$ app/controller/main.php?mod=daftar_online [QSA]
 
     # KONTAK PAGE
     RewriteRule ^kontak\.html$ app/controller/main.php?mod=kontak [L]
