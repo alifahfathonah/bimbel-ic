@@ -1,9 +1,9 @@
     <!-- Header Area-->
-    <header class="header-area <?= ($_GET['mod']=='home') ? NULL : 'header2' ; ?>">
+    <header class="header-area">
       <div class="container">
         <div class="classy-nav-container breakpoint-off <?= ($_GET['mod']=='home') ? NULL : 'navbar2' ; ?>">
           <nav class="classy-navbar justify-content-between" id="saasboxNav">
-            <!-- Logo--><a class="nav-brand mr-5" href="indonesia-college-yogyakarta.html"><img src="assets/themes/img/core-img/<?= ($_GET['mod']=='home') ? 'logo' : 'logo-white' ; ?>.png" alt="Logo Bimbel IC" style="max-height:70px"></a>
+            <!-- Logo--><a class="nav-brand mr-5" href="indonesia-college-yogyakarta.html"><img src="assets/themes/img/core-img/logo.png" alt="Logo Bimbel IC" style="max-height:70px"></a>
             <!-- Navbar Toggler-->
             <div class="classy-navbar-toggler"><span class="navbarToggler"><span></span><span></span><span></span><span></span></span></div>
             <!-- Menu-->

@@ -1,19 +1,15 @@
     <!-- Welcome Area-->
-    <section class="welcome-area hero4" id="home">
-      <!-- Hero Background Shape-->
-      <div class="hero4-bg-shape"><img src="assets/themes/img/core-img/hero-4-.png" alt=""></div>
-      <div class="background-animation">
-        <div class="star-ani"></div>
-        <div class="cloud-ani"></div>
-        <div class="triangle-ani"></div>
-        <div class="circle-ani"></div>
-        <div class="box-ani"></div>
-      </div>
-      <!-- Hero Background Shape-->
-      <div class="hero4-bg-shape2"><img src="assets/themes/img/core-img/hero-3-.png" alt=""></div>
+    <section class="welcome-area" id="home">
+        <!-- Hero Background Shape-->
+        <div class="background-shape">
+            <div class="circle1 wow fadeInLeftBig" data-wow-duration="4000ms" style="visibility: visible; animation-duration: 4000ms; animation-name: fadeInLeftBig;"></div>
+            <div class="circle2 wow fadeInRightBig" data-wow-duration="4000ms" style="visibility: visible; animation-duration: 4000ms; animation-name: fadeInRightBig;"></div>
+            <div class="circle3 wow fadeInLeftBig" data-wow-duration="4000ms" style="visibility: visible; animation-duration: 4000ms; animation-name: fadeInLeftBig;"></div>
+        </div>
+
       <div class="container h-100">
         <div class="row h-100 align-items-center">
-          <div class="col-12 col-md-5">
+          <div class="col-12 order-1 order-md-0 col-md-5">
             <!-- Content-->
             <div class="welcome-content owl-carousel hero-slides pr-3">
                 <?php foreach ($slide as $key => $value): ?>
@@ -25,12 +21,8 @@
                 <?php endforeach; ?>
             </div>
           </div>
-          <div class="col-12 col-md-7">
+          <div class="col-12 order-0 order-md-1 col-md-7">
             <div class="card hero-video-card">
-                <!-- Shape-->
-                <div class="video-shape">
-                    <img src="assets/themes/img/core-img/hero-3-2.png" alt="">
-                </div>
                 <div class="video-card-slides owl-carousel">
                     <?php foreach ($slide as $key => $value): ?>
                         <img src="assets/img/slide/<?= $value->gambar ?>" alt="<?= $value->nama ?>">
@@ -43,15 +35,90 @@
       </div>
     </section>
     <!-- Service Area-->
-    <section class="service-area service3 section-padding-120 bg-gray" id="service">
+    <section class="service-area" id="service">
+        <div class="background-shape-2 h-100 w-100" style="
+            background-color: #971e23;
+            position: absolute;
+            z-index: -50;
+            top: 2%;
+        ">
+        
+            <div class="h-50 w-100" style="
+                background-color: #971e23;
+                position: absolute;
+                z-index: -30;
+                top: 0%;
+                overflow: hidden;
+            ">
+                <div style="
+                    --cs-vw: 100vw;
+                    background-color: rgb(213, 124, 128);
+                    height: calc(var(--cs-vw)*2);
+                    width: calc(var(--cs-vw)*2);
+                    position: absolute;
+                    border-radius: 50%;
+                    z-index: -40;
+                    top: 11%;
+                    left: -70%;
+                " class="wow fadeInRightBig" data-wow-duration="4000ms" style="visibility: visible; animation-duration: 4000ms; animation-name: fadeInRightBig;"></div>
+            <div style="
+                --cs-vw: 100vw;
+                background-color: rgb(255 255 255);
+                height: calc(var(--cs-vw)*2);
+                width: calc(var(--cs-vw)*2);
+                position: absolute;
+                border-radius: 50%;
+                z-index: -30;
+                top: 15%;
+                left: -75%;
+            " class="wow fadeInRightBig" data-wow-duration="4000ms" style="visibility: visible; animation-duration: 4000ms; animation-name: fadeInRightBig;"></div>
+            </div>
+            <div class="h-50 w-100" style="
+                background-color: #091231;
+                position: absolute;
+                z-index: -30;
+                top: 50%;
+                overflow: hidden;
+            ">
+                <div style="
+                    background-color: #b8e2fa;
+                    --cs-vw: 100vw;
+                    height: calc(var(--cs-vw)*1.5);
+                    width: calc(var(--cs-vw)*1.5);
+                    position: absolute;
+                    border-radius: 50%;
+                    z-index: -30;
+                    bottom: 2%;
+                    left: -10%;
+                " class="wow fadeInLeftBig" data-wow-duration="4000ms" style="visibility: visible; animation-duration: 4000ms; animation-name: fadeInLeftBig;"></div>
+                <div style="
+                    background-color: #ffffff;
+                    --cs-vw: 100vw;
+                    height: calc(var(--cs-vw)*1.5);
+                    width: calc(var(--cs-vw)*1.5);
+                    position: absolute;
+                    border-radius: 50%;
+                    z-index: -30;
+                    bottom: 12%;
+                    left: -13%;
+                " class="wow fadeInLeftBig" data-wow-duration="4000ms" style="visibility: visible; animation-duration: 4000ms; animation-name: fadeInLeftBig;"></div>
+            </div>
+        </div>
+        <div class="container">           
+            <div class="row g-5 justify-content-center">
+                <div class="col-12 mb-200">
+                    <div class="section-heading text-center">
+                        <h1 class="text-white">Kenapa Memilih Indonesia College?</h1>
+                    </div>
+                    <img src="assets/img/gedung.png" class="mx-auto d-block w-75" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-area pb-5" style="background: var(--cs-primary);margin-top: 65px;">            
       <div class="container">           
         <div class="row g-5 justify-content-center">
-          <div class="col-12">
-            <div class="section-heading text-center">
-              <h1>Kenapa Memilih Indonesia College?</h1>
-            </div>
-            <img src="assets/img/gedung.png" class="mx-auto d-block w-75" alt="">
-          </div>
           <!-- Single Service Area-->
           <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
             <div class="card service-card wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
@@ -82,41 +149,23 @@
               </div>
             </div>
           </div>
-          <!-- Single Service Area-->
-          <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-            <div class="card service-card wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1000ms">
-              <div class="card-body">
-                <div class="icon"><i class="lni-android"></i></div>
-                <h4>Pengajar Ahli</h4>
-                <p>It's crafted with the latest trend of design quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-            </div>
-          </div>
-          <!-- Single Service Area-->
-          <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-            <div class="card service-card wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1000ms">
-              <div class="card-body">
-                <div class="icon"><i class="lni-pie-chart"></i></div>
-                <h4>Tes Progresif Berkala</h4>
-                <p>It's crafted with the latest trend of design quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-            </div>
-          </div>
-          <!-- Single Service Area-->
-          <div class="col-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
-            <div class="card service-card wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1000ms">
-              <div class="card-body">
-                <div class="icon"><i class="lni-wordpress"></i></div>
-                <h4>Pengajar Ahli</h4>
-                <p>It's crafted with the latest trend of design quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
     <!-- saasbox Features Area-->
-    <div class="saasbox-tab-area section-padding-120">
+    <div class="saasbox-tab-area section-padding-120XX">
+        <div class="bg-danger h-25 overflow-hidden position-absolute w-100">
+            <div style="
+                background-color: var(--cs-primary);
+                --cs-vw: 100vw;
+                height: calc(var(--cs-vw)*1.5);
+                width: calc(var(--cs-vw)*1.5);
+                position: absolute;
+                border-radius: 50%;
+                bottom: -51%;
+                left: -26%;
+            " class="wow fadeInLeftBig" data-wow-duration="4000ms" style="visibility: visible; animation-duration: 4000ms; animation-name: fadeInLeftBig;"></div>
+        </div>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-12 col-lg-12">
