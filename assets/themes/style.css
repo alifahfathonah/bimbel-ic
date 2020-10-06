@@ -412,7 +412,8 @@ textarea:invalid {
 .section-heading {
   position: relative;
   z-index: 1;
-  margin-bottom: 85px; }
+  /* margin-bottom: 85px; */
+  }
   .section-heading i {
     display: block;
     width: 60px;
@@ -4136,7 +4137,8 @@ img.mfp-img {
         height: 500px; } }
     @media only screen and (max-width: 767px) {
       .google-maps-wrapper iframe {
-        height: 350px; } }
+        height: 250px;
+        } }
     @media only screen and (min-width: 480px) and (max-width: 767px) {
       .google-maps-wrapper iframe {
         height: 400px; } }

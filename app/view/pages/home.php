@@ -274,13 +274,13 @@
       </div>
     </div>
     <!-- Pricing Plan Area-->
-    <section class="saasbox-pricing-plan-area price2 section-padding-120 bg-gray">
+    <section class="saasbox-pricing-plan-area" style="background:var(--cs-primary)">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12">
+          <div class="col-12 pt-3">
             <div class="section-heading text-center">
-              <h2>HOTLINE SERVICE</h2>
-              <div class="row row-cols-3 g-4">
+              <h2 class="text-white">HOTLINE SERVICE</h2>
+              <div class="gx-2 mb-3 row row-cols-3">
                 <div class="col wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
                   <a href="#">
                     <img src="assets/img/hotline/wa1.png"  alt="MUSTOFA">
@@ -299,12 +299,9 @@
               </div>
 
             </div>
-            <div class="container">
-              <div class="border-dashed"></div>
-            </div>
             <div class="section-heading text-center mb-0">
-              <h2>Ikuti Media Sosial Kami</h2>
-              <div class="row row-cols-2 row-cols-md-4 g-4">
+              <h2 class="text-white">Ikuti Media Sosial Kami</h2>
+              <div class="row row-cols-2 row-cols-md-4 g-3">
                 <?php foreach ($sosmed as $key => $value ) : ?>
                   <div class="col wow fadeInUp" data-wow-delay="<?= (($key+1)*200) ?>ms" data-wow-duration="1000ms">
                     <a href="<?= $value->link ?>" target="_blank" title="<?= $value->nama ?>">
@@ -319,8 +316,8 @@
       </div>
     </section>
     <!-- Google Maps-->
-    <div class="google-maps-wrapper">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63242.57000846092!2d110.36419506545612!3d-7.825697966146739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sindonesia%20college!5e0!3m2!1sid!2sid!4v1600413665672!5m2!1sid!2sid" allowfullscreen=""></iframe>
+    <div class="google-maps-wrapper container-fluid" style="background:var(--cs-primary)">
+      <iframe class="pt-3 pb-2" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63242.57000846092!2d110.36419506545612!3d-7.825697966146739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sindonesia%20college!5e0!3m2!1sid!2sid!4v1600413665672!5m2!1sid!2sid" allowfullscreen=""></iframe>
     </div>    
     <!-- Cookie Alert Area-->
     <div class="cookiealert mb-0" role="alert">

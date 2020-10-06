@@ -17,7 +17,7 @@
                 <?php endforeach ; ?>
               </ul>
               <div class="">
-                <a class="border btn fadeInUp mr-3 mt-3 rounded-pill saasbox-btn white-btn wow" href="#" data-wow-delay="300ms" data-wow-duration="1000ms">Cabang Lainnya</a>
+                <a class="border btn fadeInUp mr-3 mt-3 rounded-pill text-white white-btn wow" href="#" data-wow-delay="300ms" data-wow-duration="1000ms" style="background-color:#0c1533">Cabang Lainnya</a>
               </div>
             </div>
           </div>
