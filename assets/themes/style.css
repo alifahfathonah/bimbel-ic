@@ -490,9 +490,11 @@ textarea:invalid {
   z-index: 9999999;
   top: 0;
   left: 0;
-  background-color: #0811fb;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  background-color: var(--cs-primary);
+  display:
+  -webkit-box;
+  display:
+  -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -500,7 +502,8 @@ textarea:invalid {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  overflow: hidden; }
+  overflow: hidden;
+  }
 
 /* Header CSS */
 .header-area {
@@ -3486,8 +3489,9 @@ img.mfp-img {
           color: #0811fb;
           background-color: #f4f4ff; }
   .footer-area.footer2 {
-    background-color: #0d0033;
-    overflow: hidden; }
+    background-color: #ab1e24;
+    overflow: hidden;
+    }
     .footer-area.footer2 .footer-social-icon a:hover, .footer-area.footer2 .footer-social-icon a:focus {
       color: #fdd76e; }
     .footer-area.footer2 .footer-shape {

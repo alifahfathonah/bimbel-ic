@@ -1,10 +1,10 @@
     <!-- Footer Area-->
-    <footer class="footer-area footer2 section-padding-120">
+    <footer class="footer-area footer2 pt-3">
       <div class="container">
         <div class="row justify-content-between">
           <!-- Footer Widget Area-->
           <div class="col-12 col-sm-6">
-            <div class="footer-widget-area mb-70">
+            <div class="footer-widget-area mb-3">
               <h5 class="widget-title">Hubungi Kami</h5>
               <ul class="row row-cols-1 g-4XXX">
                 <?php foreach ($hubungi_kami as $key => $value ) : ?>
@@ -23,9 +23,9 @@
           </div>
           <!-- Footer Widget Area-->
           <div class="col-12 col-sm-6">
-            <div class="footer-widget-area mb-70">
-              <h5 class="widget-title">Link Terkait</h5>
-              <ul class="row row-cols-4 row-cols-md-5 g-4">
+            <div class="footer-widget-area mb-3">
+              <h5 class="text-center text-sm-left widget-title">Link Terkait</h5>
+              <ul class="row row-cols-4 row-cols-md-5 g-3">
                 <?php foreach ($link_terkait as $key => $value ) : ?>
                   <li class="col wow fadeInUp text-center" data-wow-delay="<?= (($key+1)*200) ?>ms" data-wow-duration="1000ms">
                     <a href="<?= $value->link ?>" target="_blank" title="<?= $value->nama ?>" class="link-terkait-item">
@@ -39,7 +39,7 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container-fluid pt-3 pb-3" style="background-color:var(--cs-primary)">
         <div class="row align-items-center">
           <div class="col-12">
             <!-- Copywrite Text-->

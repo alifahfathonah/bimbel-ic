@@ -73,6 +73,11 @@ BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 
     # VIDEO PAGE
     RewriteRule ^video-indonesia-college-yogyakarta\.html$ app/controller/main.php?mod=video [L]
+
+    #Replace /images/nohotlink.jpg with your "hotlinking is not permitted" image url
+    #RewriteCond %{REQUEST_URI} /+[^.]+$
+    #RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+    #RewriteRule .*.(jpe?g|gif|bmp|png)$ /tes.php [L]
 </IfModule>
 
 
