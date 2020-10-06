@@ -208,7 +208,7 @@
       <div class="border-top"></div>
     </div>
     <!-- Feature Area-->
-    <div class="feature-area feature3 section-padding-120-70">
+    <div class="feature-area">
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-12 col-md-12 col-lg-12">
@@ -268,7 +268,7 @@
             <?php endforeach ; ?>
           <?php endif ; ?>
           <div class="text-center">
-            <a class="btn saasbox-btn white-btn mr-3 mt-3 wow fadeInUp" href="video-indonesia-college-yogyakarta.html" data-wow-delay="900ms" data-wow-duration="1000ms">Video Selengkapnya</a>
+            <a class="btn fadeInUp mb-4 mt-3 saasbox-btn text-capitalize white-btn wow" href="video-indonesia-college-yogyakarta.html" data-wow-delay="900ms" data-wow-duration="1000ms" style="background-color: #0b0757;color: #ffffff;box-shadow: 4px 4px 0px 0px #7dc6d9;border-radius: 8px;">Video Selengkapnya</a>
           </div>
         </div>
       </div>
@@ -280,7 +280,7 @@
           <div class="col-12 pt-3">
             <div class="section-heading text-center">
               <h2 class="text-white">HOTLINE SERVICE</h2>
-              <div class="gx-2 mb-3 row row-cols-3">
+              <div class="gx-2 gx-sm-5 mb-3 row row-cols-3">
                 <div class="col wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1000ms">
                   <a href="#">
                     <img src="assets/img/hotline/wa1.png"  alt="MUSTOFA">
