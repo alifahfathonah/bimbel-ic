@@ -32,8 +32,8 @@
             loop: true,
             autoplay: true,
             dots: false,
-            nav: true,
-            navText: [('<i class="lni-chevron-left"></i>'), ('<i class="lni-chevron-right"></i>')],
+            nav: false,
+            // navText: [('<i class="lni-chevron-left"></i>'), ('<i class="lni-chevron-right"></i>')],
         })
 
         welcomeSlider.on('translate.owl.carousel', function () {
@@ -63,6 +63,38 @@
         });
     }
 
+    // :: Pengajar ahli Active Code
+    if ($.fn.owlCarousel) {
+        var pengajarAhli = $('.pengajar-ahli');
+        pengajarAhli.owlCarousel({
+            items: 3,
+            margin: 10,
+            loop: true,
+            autoplay: true,
+            smartSpeed: 800,
+            autoplayTimeout: 5000,
+            dots: false,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                576: {
+                    items: 2
+                },
+                768: {
+                    items: 3
+                },
+                992: {
+                    items: 4
+                },
+                1700: {
+                    items: 5
+                }
+            }
+        })
+    }
+    
     // :: Testimonial Slides Active Code
     if ($.fn.owlCarousel) {
         var testimonialSlider = $('.client-feedback-slides');
