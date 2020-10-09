@@ -53,7 +53,7 @@
                     <div class="section-heading text-center">
                         <h1 class="text-white">Kenapa Memilih Indonesia College?</h1>
                     </div>
-                    <img src="assets/img/gedung.png" class="mx-auto d-block w-75" alt="">
+                    <img srcset="assets/img/gedung/gedung-480.png 480w,assets/img/gedung/gedung-800.png 800w,assets/img/gedung/gedung-1400.png 1400w" sizes="(max-width: 600px) 480px,(max-width: 1023px) 800px,(max-width: 1600px) 1400px" src="assets/img/gedung/gedung.png" class="mx-auto d-block w-75" alt="Gedung Bimbel IC">
                 </div>
             </div>
         </div>
@@ -160,7 +160,7 @@
               <?php if ( $key === 0 ) : ?>
                 <div class="col-12 col-lg-6 col-md-6 first-video-home mb-3 mb-sm-0">
                   <div class="card blog-card wow fadeInUp border-0" data-wow-delay="100ms" data-wow-duration="1000ms">
-                    <div class="image-wrap"><img class="card-img-top" src="https://img.youtube.com/vi/<?= $value->videoId ?>/maxresdefault.jpg" alt="">
+                    <div class="image-wrap"><img class="card-img-top" src="https://img.youtube.com/vi/<?= $value->videoId ?>/hqdefault.jpg" alt="">
                       <!-- Video--><span class="video-content"><a class="video-play-btn" href="https://www.youtube.com/watch?v=<?= $value->videoId ?>"><i class="lni-play"></i></a></span>
                     </div>
                     <div class="p-sm-4 post-content pt-2">
@@ -225,7 +225,7 @@
                 </div>
                 <div class="col wow fadeInUp" data-wow-delay="700ms" data-wow-duration="1000ms">
                   <a href="#">
-                    <img src="assets/img/hotline/wa2.png"  alt="NANDA">
+                    <img src="assets/img/hotline/wa3.png"  alt="NANDA">
                   </a>
                 </div>
               </div>
