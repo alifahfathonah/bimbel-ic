@@ -11,7 +11,8 @@
     <!-- Favicon-->
     <link rel="icon" href="assets/themes/img/core-img/favicon.ico">
     <!-- Core Stylesheet-->
-    <link rel="stylesheet" href="assets/themes/style.css">
+    <!-- <link rel="stylesheet" href="assets/themes/style.css"> -->
+    <link rel="stylesheet" href="assets/themes/style.min.css">
   </head>
   <body>
     <!-- Preloader-->
