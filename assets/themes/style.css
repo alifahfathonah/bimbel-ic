@@ -4397,7 +4397,7 @@ textarea.form-control {
     border-radius: 50%;
     z-index: -40;
     top: 11%;
-    left: -70%;
+    left: -63%;
   }
   .background-shape-2 > .top > .circle-2 {
     --cs-vw: 100vw;
@@ -4408,7 +4408,7 @@ textarea.form-control {
     border-radius: 50%;
     z-index: -30;
     top: 15%;
-    left: -75%;
+    left: -66%;
   }
   .background-shape-2 > .bottom > .circle-1 {
     background-color: #b8e2fa;
@@ -4419,7 +4419,7 @@ textarea.form-control {
     border-radius: 50%;
     z-index: -30;
     bottom: 2%;
-    left: -10%;
+    left: -17%;
   }
   .background-shape-2 > .bottom > .circle-2 {
     background-color: #ffffff;
@@ -4430,7 +4430,7 @@ textarea.form-control {
     border-radius: 50%;
     z-index: -30;
     bottom: 12%;
-    left: -13%;
+    left: -19%;
   }
   .header-testimoni {
     padding-bottom: 85px;

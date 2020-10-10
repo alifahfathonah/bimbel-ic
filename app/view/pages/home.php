@@ -25,7 +25,7 @@
             <div class="card hero-video-card">
                 <div class="video-card-slides owl-carousel">
                     <?php foreach ($slide as $key => $value): ?>
-                        <img src="assets/img/slide/<?= $value->gambar ?>" alt="<?= $value->nama ?>">
+                        <img srcset="assets/img/slide/480<?= $value->gambar ?> 480w" sizes="(max-width: 600px) 480px" src="assets/img/slide/<?= $value->gambar ?>" alt="<?= $value->nama ?>">
                     <?php endforeach; ?>
                 </div>
                 <!-- <a class="video-play-btn" href="https://www.youtube.com/watch?v=X_93H_60Pls"><i class="lni-play"></i><span class="video-sonar"></span></a> -->
@@ -114,7 +114,7 @@
 									<!-- Single Feedback Slide-->
 									<div class="card feedback-card wow fadeInUp mb-3" data-wow-delay="<?= (($key+1)*300) ?>ms" data-wow-duration="1000ms" style="">
                     <div class="rounded-circle overflow-hidden w-50 mx-auto mb-3">
-                      <img src="assets/img/testimoni/<?= $value->gambar ?>" alt="" data-toggle="tooltip" data-html="true" title="Nama : <?= $value->nama ?><br>Asal sekolah : <?= $value->asal_sekolah ?><br>Diterima : <?= $value->diterima ?>">
+                      <img src="assets/img/testimoni/small_<?= $value->gambar ?>" alt="" data-toggle="tooltip" data-html="true" title="Nama : <?= $value->nama ?><br>Asal sekolah : <?= $value->asal_sekolah ?><br>Diterima : <?= $value->diterima ?>">
                     </div>
 										<div class="card-body" style="background: #c6e7fa; border-radius: 15px;">
 											<div class="client-info d-flex align-items-center text-center">
