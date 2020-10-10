@@ -53,7 +53,8 @@
     <!-- All JavaScript Files-->
     <script src="assets/themes/js/popper.min.js"></script>
     <script src="assets/themes/js/bootstrap.min.js"></script>
-    <script src="assets/themes/js/jquery.min.js"></script>
+    <!-- <script src="assets/themes/js/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="assets/themes/js/default/classy-nav.min.js"></script>
     <script src="assets/themes/js/waypoints.min.js"></script>
     <script src="assets/themes/js/jquery.easing.min.js"></script>

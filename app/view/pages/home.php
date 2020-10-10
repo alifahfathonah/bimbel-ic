@@ -236,7 +236,7 @@
               <div class="row row-cols-2 row-cols-md-4 g-3">
                 <?php foreach ($sosmed as $key => $value ) : ?>
                   <div class="col wow fadeInUp" data-wow-delay="<?= (($key+1)*200) ?>ms" data-wow-duration="1000ms">
-                    <a href="<?= $value->link ?>" target="_blank" title="<?= $value->nama ?>">
+                    <a href="<?= $value->link ?>" target="_blank" title="<?= $value->nama ?>" rel="noopener">
                       <img src="assets/img/sosmed/<?= $value->gambar ?>" alt="<?= $value->nama ?>">
                     </a>
                   </div>
