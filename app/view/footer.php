@@ -28,7 +28,7 @@
               <ul class="row row-cols-4 row-cols-md-5 g-3">
                 <?php foreach ($link_terkait as $key => $value ) : ?>
                   <li class="col wow fadeInUp text-center" data-wow-delay="<?= (($key+1)*200) ?>ms" data-wow-duration="1000ms">
-                    <a href="<?= $value->link ?>" target="_blank" title="<?= $value->nama ?>" class="link-terkait-item">
+                    <a href="<?= $value->link ?>" target="_blank" title="<?= $value->nama ?>" class="link-terkait-item" rel="noopener">
                       <img src="assets/img/linkterkait/<?= $value->gambar ?>" class="mb-1" alt="<?= $value->nama ?>">
                       <?= $value->nama ?>
                     </a>
