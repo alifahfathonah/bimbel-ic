@@ -11,8 +11,17 @@
     <!-- Favicon-->
     <link rel="icon" href="assets/themes/img/core-img/favicon.ico">
     <!-- Core Stylesheet-->
+    <link rel="preload" href="css/bootstrap.min.css" as="style">
+    <link rel="preload" href="assets/themes/css/default/classy-nav.min.css" as="style">
+    <link rel="preload" href="assets/themes/css/animate.css" as="style">
+    <link rel="preload" href="assets/themes/css/owl.carousel.min.css" as="style">
+    <link rel="preload" href="assets/themes/css/magnific-popup.css" as="style">
+    <link rel="preload" href="assets/themes/css/jquery.animatedheadline.css" as="style">
+    <link rel="preload" href="assets/themes/css/default/lineicons.min.css" as="style">
+    <link rel="preload" href="assets/themes/css/font-awesome.min.css" as="style">
+    <link rel="preload" href="assets/themes/css/flag-icon.min.css" as="style">
     <!-- <link rel="stylesheet" href="assets/themes/style.css"> -->
-    <link rel="stylesheet" href="assets/themes/style.min.css">
+    <link rel="preload" href="assets/themes/style.min.css" as="style">
   </head>
   <body>
     <!-- Preloader-->
