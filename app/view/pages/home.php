@@ -25,7 +25,7 @@
             <div class="card hero-video-card">
                 <div class="video-card-slides owl-carousel">
                     <?php foreach ($slide as $key => $value): ?>
-                        <img srcset="assets/img/slide/480<?= $value->gambar ?> 480w" sizes="(max-width: 600px) 480px" src="assets/img/slide/<?= $value->gambar ?>" alt="<?= $value->nama ?>">
+                        <img srcset="assets/img/slide/480/<?= rawurlencode($value->gambar) ?> 480w, assets/img/slide/<?= rawurlencode($value->gambar) ?> 800w" sizes="(max-width: 600px) 480px, 800px" src="assets/img/slide/<?= rawurlencode($value->gambar) ?>" alt="<?= $value->nama ?>">
                     <?php endforeach; ?>
                 </div>
                 <!-- <a class="video-play-btn" href="https://www.youtube.com/watch?v=X_93H_60Pls"><i class="lni-play"></i><span class="video-sonar"></span></a> -->
