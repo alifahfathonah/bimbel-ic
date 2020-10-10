@@ -367,7 +367,7 @@
     if ($.fn.scrollUp) {
         saasboxWindow.scrollUp({
             scrollSpeed: 1100,
-            scrollText: '<i class="lni-chevron-up"></i>'
+            scrollText: '<i class="lni-chevron-up"></i> <span class="d-none">tap to scroll</span>'
         });
     }
 

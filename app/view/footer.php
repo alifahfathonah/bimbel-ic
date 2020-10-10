@@ -71,7 +71,8 @@
     <script src="assets/themes/js/default/cookiealert.js"></script>
     <script src="assets/themes/js/default/jquery.passwordstrength.js"></script>
     <script src="assets/themes/js/default/mail.js"></script>
-    <script src="assets/themes/js/default/active.js"></script>
+    <!-- <script src="assets/themes/js/default/active.js"></script> -->
+    <script src="assets/themes/js/default/active.min.js"></script>
     <script>
       var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
       var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
